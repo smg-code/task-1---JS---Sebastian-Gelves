@@ -120,3 +120,13 @@
     display: flex;
     background-size: cover;
 }
+.boton-ficha{
+        color: rgb(201, 235, 11); /*color del texto */
+        text-decoration: none; /*saco el subrayado*/
+        background-color: rgb(67, 113, 237);
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 3px;
+        padding: 3px;
+        box-shadow: 10px 5px 5px black; /* sombra en la cajas de "a" en el nav*/
+}
