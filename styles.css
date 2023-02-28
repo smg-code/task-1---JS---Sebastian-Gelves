@@ -48,6 +48,7 @@
     height: 15vh;
 }
 /*flechas de desplazamiento*/
+
 .flecha-left {
     font-size:xx-large;
     color: crimson;
@@ -62,8 +63,15 @@
     justify-content: start;
 }
 .lupa {
+    text-decoration: none; /*saco el subrayado*/
+    background-color: rgb(67, 113, 237);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 3px;
+    size: 10px;
     font-size: large;
-    color: crimson;
+    color: rgb(245, 240, 241);
 }
 
 
@@ -129,4 +137,20 @@
         margin: 3px;
         padding: 3px;
         box-shadow: 10px 5px 5px black; /* sombra en la cajas de "a" en el nav*/
+}
+/***********************/
+.flechas:hover {
+    background: none; /* le saco el color cuando pasa el mouse*/
+}
+
+/*****tablas***********/
+
+/*doy color de fondo al los encabezados de la tabla*/
+thead,
+tfoot { 
+    background-color:rgb(100, 245, 250);
+    color: crimson;
+}
+th {
+    text-align: center;
 }
