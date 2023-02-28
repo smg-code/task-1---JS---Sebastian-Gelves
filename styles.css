@@ -84,7 +84,7 @@
         .Ficha {
             height: 45vh;
             background: rgb(220, 230, 243);
-            padding: 1%;
+            /*padding: 1%;*/
             /*border: 1px solid black;*/
         }
     .imagenes-fichas {
